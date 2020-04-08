@@ -266,6 +266,10 @@ class MeshRCNNROIHeads(StandardROIHeads):
         if not self.voxel_on and not self.mesh_on:
             return {} if self.training else instances
 
+        # TODO@embed:
+        # 1. How Voxel is generated
+        # 2. How mesh is generated
+        # 3. How to `align` an object
         features = [features[f] for f in self.in_features]
         if self.training:
             # The loss is only defined on positive proposals.

@@ -13,6 +13,8 @@ logger = logging.getLogger(__name__)
 __all__ = ["load_pix3d_json"]
 
 
+# TODO@embed:
+# 1. Generate embedding
 def load_pix3d_json(json_file, image_root, dataset_name=None):
     """
     Load a json file with Pix3D's instances annotation format.

@@ -15,6 +15,8 @@ from shapenet.utils.coords import SHAPENET_MAX_ZMAX, SHAPENET_MIN_ZMIN, project_
 logger = logging.getLogger(__name__)
 
 
+# TODO@embed:
+# 1. Generate embedding
 class MeshVoxDataset(Dataset):
     def __init__(
         self,
