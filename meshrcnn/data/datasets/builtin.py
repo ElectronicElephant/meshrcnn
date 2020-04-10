@@ -36,6 +36,7 @@ SPLITS = {
     "pix3d_s1_test": ("pix3d", "pix3d/pix3d_s1_test.json"),
     "pix3d_s2_train": ("pix3d", "pix3d/pix3d_s2_train.json"),
     "pix3d_s2_test": ("pix3d", "pix3d/pix3d_s2_test.json"),
+    "pix3d_debug_5": ("pix3d", "pix3d/pix3d_s1_rand_5_1586456453.json"),
 }
 
 
